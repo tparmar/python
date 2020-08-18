@@ -1,0 +1,8 @@
+noun = input("Enter a noun: ")
+noun2 = input("Enter another noun: ")
+color = input("Enter a color: ")
+color2 = input("Enter another color: ")
+verb = input("Enter a verb: ")
+print(noun +  " are " + color)
+print(noun2 +  " are " + color2)
+print("I " + verb +  " you")
