@@ -36,7 +36,7 @@ def translate(seq):
 
 print(translate(dna[20:938])[:-1] == translate(dna[20:935]))
 #pseudocode:
-    #check thaat the sequence length is divisible by 3
+    #check that the sequence length is divisible by 3
         #if true, then we can loop over the sequence
             #extract a single codon
             #look up the codon and store the result
